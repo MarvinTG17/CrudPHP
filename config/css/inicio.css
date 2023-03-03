@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F8F9FA !important;
+}
+
+.cabecera{
+    margin-top: 50px;
+}
+
+h3{
+   font-family: 'Courier New', Courier, monospace; 
+   font-weight: 600 !important;
+}
+
+input.advertencia{
+    outline: 2px #FFCA2C solid;
+}
+
+/* lg (min 992) monitores estandars */
+@media screen and (min-width: 992px) {
+
+}
+
+/* md (768-991)  smartphone - tablets */
+@media (min-width: 768px) and (max-width: 992px){
+    
+}
+
+/* sm (576-767) celulares estandars*/
+@media (min-width: 576px) and (max-width: 767px){
+    
+}
+
+/*xs(max 575) celulares pequeños*/
+@media (max-width: 575px){
+
+}
+
+@media (max-width: 768px){
+    .espacio{
+        padding-top: 25px;
+    }
+}
+
+
+
+
+
+
+
+
