@@ -20,7 +20,7 @@ class modelPrueba{
     public static function Listar2(){
         $instanciar = new conexion ();
         $conectar = $instanciar->Conectar();
-        $resultado = $conectar->prepare("SELECT cli_id, cli_nombre, cli_apellidos FROM tab_clientes WHERE cli_estado = 'Activo' AND  cli_id > 43");
+        $resultado = $conectar->prepare("SELECT cli_id, cli_nombre, cli_apellidos FROM tab_clientes WHERE cli_estado = 'Activo' AND  cli_id >= 4");
         $resultado->execute();
         $datos = $resultado->fetchAll(PDO::FETCH_OBJ);
         return $datos;
